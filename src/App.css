@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.text-primary {
+  color : #7B6FFF !important;
+}
+.active {
+  color : #7B6FFF !important;
+}
+
+
+hr {
+  display: block;
+  height: 3px;
+  border: 0;
+  border-top: 3px solid #7B6FFF;
+  margin: 1em 0;
+  width: 100px;
+}

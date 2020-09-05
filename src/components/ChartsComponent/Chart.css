@@ -1,0 +1,33 @@
+.option {
+    width: fit-content
+}
+
+div.chart {
+    height: 38.5rem;
+}
+
+@media only screen and (max-width: 479px) {
+    
+    div.chart {
+        height: 15rem;
+    }
+    
+}
+    
+@media only screen and (min-width: 480px) and (max-width: 769px) {
+    
+    .map {
+        width: 100% !important;
+        height: 30rem !important;
+    }
+    
+}
+
+@media only screen and (min-width: 770px) and (max-width: 1024px) {
+    
+    .map {
+        width: 100% !important;
+        height: 30rem !important;
+    }
+    
+}

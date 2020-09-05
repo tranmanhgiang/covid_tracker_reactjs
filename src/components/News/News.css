@@ -1,0 +1,29 @@
+.news {
+    background-color: #7B6FFF;
+    height: 40px;
+    line-height: 40px;
+    width: 120px;
+    padding : 0 5px;
+    color : white;
+    border-top-right-radius: 30px;
+}
+
+.description {
+    min-height: max-content;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    /* width: 100%; */
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.title {
+    min-height: max-content;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    /* width: 100%; */
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
